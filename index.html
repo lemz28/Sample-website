@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign up</title>
+  
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+ 
+
+  *{
+  padding-top: none;
+  border: none ;
+  margin-top: none;
+  font-family: 'Poppins', serif;
+  }
+  
+  body {
+      font-size:20px;
+  }
+  
+  body {
+             font-family: serif;
+              background-color: #f0f0f0;
+          }
+          h4 {
+              text-align: center;
+          }
+          form {
+              max-width: 300px;
+              margin: 0 auto;
+              padding: 20px;
+              background-color: rgba(240, 240, 240);
+              border: 1px solid #ccc;
+              border-radius: 5px;
+              box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+          }
+          label {
+              display: block;
+              margin-bottom: 3px;
+          }
+          input[type="email"] 
+                  {
+              width: 90%;
+              padding: 10px;
+              margin-bottom: 10px;
+              border: 1px solid #ccc;
+              border-radius: 3px;
+              outline-style: none;
+              font-size: 15px;
+              
+          }
+          
+          
+          input[type="Name"] 
+                  {
+              width: 90%;
+              padding: 10px;
+              margin-bottom: 10px;
+              border: 1px solid #ccc;
+              border-radius: 3px;
+              outline-style: none;
+              font-size: 15px;
+           }
+                  
+           input[type="password"] 
+                  {
+              width: 90%;
+              padding: 10px;
+              margin-bottom: 10px;
+              border: 1px solid #ccc;
+              border-radius: 3px;
+              outline-style: none;
+              font-size: 15px;
+          }
+                  
+          input[type="email"]:hover {
+              outline: 1px solid deepskyblue;
+              box-shadow: 0px 0px 0px 5px lightblue;
+              transition: 0.5s;
+             
+          }
+          input[type="Name"]:hover {
+              outline: 1px solid deepskyblue;
+              box-shadow: 0px 0px 0px 5px lightblue;
+              transition: 0.5s;
+             
+          }
+          
+          input[type="password"]:hover {
+            outline: 1px solid deepskyblue;
+            box-shadow: 0px 0px 0px 5px lightblue;
+            transition: 0.5s;
+          
+          }
+          
+          
+          input[type="submit"] {
+              background-color: #007BFF;
+              color: #fff;
+              padding: 10px 15px;
+              border: none;
+              border-radius: 3px;
+              cursor: pointer;
+              width: 100%;
+              box-shadow: 0px 2px 5px grey;
+          }
+          input[type="submit"]:hover {
+              background-color: #000987;
+             
+             
+          }
+         .href {
+           text-decoration: none;
+           font-size: 15px;
+           
+         }
+
+      </style>
+</head>
+
+<body>
+    <div>
+      <h4>Sign up for free now!</h4>
+    </div>
+  
+  
+  
+  
+    <form action="/submit_login" method="post">
+      <label for="email">Name:</label>
+      <input type="Name" id="Name" name="email" required><br>
+       <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+       <label for="password">Password:</label>
+       <input type="password" id="password" name="email" required><br><br>
+      
+         <input type="submit" value="Sign up"><br><br>
+         <a class="href" href="index.html">Alreadyhave an account?</a>
+         
+         
+         </form>
+</body>
+
+  </html
